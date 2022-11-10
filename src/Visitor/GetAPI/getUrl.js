@@ -1,0 +1,20 @@
+export default {
+    ip: "http://bestech.la/random-api",
+    postAccount: "/api/v1/auth/user",
+    getEvent: "/api/v1/event",
+    postEvent: "/api/v1/event/",
+    getPrize: "/api/prizes/v1",
+    getPrizeID: "/api/prizes/v1/",
+    getProvinceAndDisctrict: "/api/v1/district",
+    getRandom: "/api/winners/v1/random",
+    getPeriods: "/api/v1/times",
+    getWinner: "/api/winners/v1",
+    getBanner: "/api/v1/banner",
+    getBil: "/api/bils/v1/",
+    postWinner: "/api/winners/v1/",
+    getCandidate: "/api/candidates/v1",
+    getRandom: "/api/winners/v1/random",
+    getAbout: "/api/v1/about",
+
+    deleteBanner: '/api/v1/banner/',
+}

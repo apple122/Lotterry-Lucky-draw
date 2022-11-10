@@ -1,0 +1,84 @@
+.cardbox {
+    border-radius: 5px;
+        border: 3px solid #1576EC;
+    padding-left: 0;
+    padding-right: 0;
+    .prize {
+        background-color: #00A3FF;
+        padding: 10px;
+        font-weight: bold;
+    }
+
+    .name {
+        color: #1576EC;
+        font-weight: bold;
+    }
+}
+
+.css-1s2u09g-control {
+    padding: 6px;
+}
+
+.buttonReset {
+    font-weight: bold;
+    background-color: #00A3FF;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    transition: transform .2s;
+}
+
+.buttonReset:hover {
+    background-color: white;
+    color: black;
+    border: 1px solid;
+    border-color: blue;
+    transform: scale(1.1);
+}
+
+.paginationBtn {
+    width: 100%;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+
+    a {
+        background-color: white;
+        padding: 15px;
+        margin: 0px;
+        border-radius: 5px;
+        border: 1px solid;
+        color: black;
+        text-decoration: none;
+        border-radius: 10px;
+    }
+
+    :hover {
+        font-weight: bold;
+        color: white;
+        background-color: #1576EC;
+    }
+}
+
+.paginationActive {
+    color: white;
+
+    a {
+        font-weight: bold;
+        background-color: #1576EC;
+    }
+}
+
+.formCard {
+    height: auto;
+}
+
+.BackgroundLuckyPeople {
+    background-color: #1576EC;
+    width: 300px;
+    color: white;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}

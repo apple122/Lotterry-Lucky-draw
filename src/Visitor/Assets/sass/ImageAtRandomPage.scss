@@ -1,0 +1,48 @@
+// .img-fluid {
+//     max-height: 300px;
+//     width: 1200px;
+//   }
+  
+  
+//   @media screen and (max-width: 1300px) {
+//     .img-fluid {
+//         max-height: 300px;
+//     }
+//   }
+  
+//   @media screen and (max-width: 1000px) {
+//     .img-fluid {
+//         max-height: 200px;
+//     }
+//   }
+  
+//   @media screen and (max-width: 500px) {
+//     .img-fluid {
+//         max-height: 150px;
+//     }
+//   }
+.CustomImg {
+  max-height: 250px;
+  width: 1200px;
+}
+
+@media screen and (max-width: 1200px) {
+  .CustomImg {
+    max-height: 200px;
+    width: 800px;
+  }
+}
+
+@media screen and (max-width: 820px) {
+  .CustomImg {
+    max-height: 190px;
+    width: 600px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .CustomImg {
+    max-height: 200px;
+    width: 450px;
+  }
+}

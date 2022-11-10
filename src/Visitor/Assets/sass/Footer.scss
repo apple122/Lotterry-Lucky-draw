@@ -1,0 +1,31 @@
+.footer {
+    background-color: #00000099;
+}
+
+.footerHide {
+    display: none;
+}
+
+.itemFooter:after {
+    color: #fff;
+  text-decoration: none;
+  position: relative;
+}
+
+.itemFooter:after {
+    background: none repeat scroll 0 0 transparent;
+    background: #fff;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+}
+
+.itemFooter:hover:after {
+    width: 100%;
+    left: 0;
+}
+
+@media screen and (max-width: 560px) {
+    .footer {
+        flex: auto;
+    }
+}

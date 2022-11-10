@@ -1,0 +1,149 @@
+.react-multi-carousel-dot-list{
+    li {
+        width: 30px;
+    }
+}
+.react-multi-carousel-track {
+    margin: 0;
+    padding-right: 0;
+}
+
+.carousel-luckyname {
+    padding: 50px;
+}
+
+.custom-dot-list-style li{
+    button {
+        height: 15px;
+        width: 15px;
+        
+    }
+}
+
+.backgroundLuckyName {
+    background-color: #E5E9ECDE;
+    margin-top: 100px;
+    height: 380px;
+}
+
+.backgroundLucky {
+    background-color: #1576EC;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    top: -35px;
+    margin-top: auto;
+    margin-bottom: auto;
+    border-radius: 10px;
+    width: 500px;
+}
+
+.line {
+    border-right: 0;
+    border-left: 0;
+}
+
+.luckybox {
+    border:3px solid #1576EC;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.backgroundPrize {
+    background-color: #00A3FF;
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.textColor {
+    color: #1576EC;
+}
+
+.viewAll {
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    :hover {
+        color: #1576EC;
+    }
+}
+
+.boxsize {
+    height: 580px;
+}
+
+.CardLucky {
+    padding-left: 25px;
+}
+
+@media screen and (max-width: 1304px){
+    .backgroundLuckyName {
+        background-color: #E5E9ECDE;
+        margin-top: 100px;
+        height: 800px;
+    }
+
+    .backgroundLucky {
+        width: 600px;
+    }
+
+    .viewAll {
+        margin-top: 50px;
+    }
+
+    .boxsize {
+        height: 1000px;
+    }
+}
+
+@media screen and (max-width: 800px){
+    .backgroundLucky {
+        width: 300px;
+    }
+
+    .viewAll {
+        margin-top: 50px;
+    }
+
+    .boxsize {
+        height: 800px;
+    }
+}
+
+@media screen and (max-width: 550px){
+    .backgroundLucky {
+        width: 200px;
+    }
+}
+
+@media screen and (max-width: 983px) {
+    .backgroundLuckyName {
+        height: 720px;
+    }
+
+    .boxsize {
+        height: 950px;
+    }
+}
+
+@media screen and (max-width: 664px) {
+    .backgroundLuckyName {
+        height: 1080px;
+    }
+
+    .boxsize {
+        height: 1260px;
+    }
+}
+
+@media screen and (max-width: 677px) {
+    .backgroundLuckyName {
+        height: 1390px;
+    }
+
+    .boxsize {
+        height: 1700px;
+    }
+}
